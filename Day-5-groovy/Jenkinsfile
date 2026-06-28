@@ -58,7 +58,7 @@ node {
     ])
 
     stage('Preparation') {
-        git branch: 'main', url: 'https://github.com/CloudTechDevOps/Terraform-0730am.git'
+        git branch: 'main', url: 'https://github.com/CloudCodeOps/terraform.git'
     }
 
     stage('Init') {
@@ -87,7 +87,7 @@ node {
 
     stage('git checkout') {
         git branch: 'main',
-            url: 'https://github.com/CloudTechDevOps/Terraform-0730am.git'
+            url: 'https://github.com/CloudCodeOps/terraform.git'
     }
 
     stage('init') {
@@ -124,7 +124,7 @@ node {
 
         stage('Checkout') {
             git branch: 'main',
-                url: 'https://github.com/CloudTechDevOps/Terraform-0730am.git'
+                url: 'https://github.com/CloudCodeOps/terraform.git'
         }
 
         stage('Init') {
@@ -179,7 +179,7 @@ node('dev') {
 
     stage('git checkout') {
         git branch: 'main',
-            url: 'https://github.com/CloudTechDevOps/Terraform-0730am.git'
+            url: 'https://github.com/CloudCodeOps/terraform.git'
     }
 
 }
