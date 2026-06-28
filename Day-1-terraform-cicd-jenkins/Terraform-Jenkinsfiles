@@ -42,7 +42,7 @@ pipeline {
     stages {
         stage('git checkout') {
             steps {
-               git branch: 'main', url: 'https://github.com/CloudTechDevOps/Terraform-0730am.git'
+               git branch: 'main', url: 'https://github.com/CloudCodeOps/terraform.git'
             }
         }
          stage('init') {
@@ -84,7 +84,7 @@ pipeline {
     stages {
         stage('git checkout') {
             steps {
-               git branch: 'main', url: 'https://github.com/CloudTechDevOps/Terraform-0730am.git'
+               git branch: 'main', url: 'https://github.com/CloudCodeOps/terraform.git'
             }
         }
          stage('init') {
@@ -111,7 +111,7 @@ pipeline {
     stages {
         stage('git checkout') {
             steps {
-               git branch: 'main', url: 'https://github.com/CloudTechDevOps/Terraform-0730am.git'
+               git branch: 'main', url: 'https://github.com/CloudCodeOps/terraform.git'
             }
         }
          stage('init') {
@@ -139,7 +139,7 @@ pipeline {
     stages {
         stage('git checkout') {
             steps {
-               git branch: 'main', url: 'https://github.com/CloudTechDevOps/Terraform-0730am.git'
+               git branch: 'main', url: 'https://github.com/CloudCodeOps/terraform.git'
             }
         }
          stage('init') {
@@ -182,7 +182,7 @@ pipeline {
     stages {
         stage('git checkout') {
             steps {
-               git branch: 'main', url: 'https://github.com/CloudTechDevOps/Terraform-0730am.git'
+               git branch: 'main', url: 'https://github.com/CloudCodeOps/terraform.git'
             }
         }
          stage('init') {
@@ -230,7 +230,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 git branch: 'main',
-                    url: 'https://github.com/CloudTechDevOps/Terraform-0730am.git'
+                    url: 'https://github.com/CloudCodeOps/terraform.git'
             }
         }
 
@@ -301,7 +301,7 @@ pipeline {
     stages {
         stage('git checkout') {
             steps {
-               git branch: 'main', url: 'https://github.com/CloudTechDevOps/Terraform-0730am.git'
+               git branch: 'main', url: 'https://github.com/CloudCodeOps/terraform.git'
             }
         }
         
